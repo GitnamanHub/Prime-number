@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     int num;
+    cout<<"ENTER NUMBER GREATER THAN 1"<<endl;
     cin>>num;
     int flag{0};
     for(int i=2;i<=sqrt(num);i++)
